@@ -1,0 +1,36 @@
+@import 'src/styles/_media-queries.scss';
+.number-buttons {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-bottom: 0.2rem;
+  background-color: #a7bea9;
+  box-shadow: 0px 2px #52796f;
+  border: 1px solid #a7bea9;
+  color: #2f3e46;
+}
+.number-buttons:hover {
+  background-color: #b9c8b7;
+  box-shadow: 1px 3px #6b917e;
+  border: 1px solid #b9c8b7;
+}
+@include xs {
+  .number-buttons {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@include sm {
+  .number-buttons {
+    width: 5.5rem;
+    height: 5.5rem;
+    font-size: 1.4rem;
+  }
+}
+@include md {
+  .number-buttons {
+    width: 7rem;
+    height: 7rem;
+    font-size: 1.8rem;
+  }
+}

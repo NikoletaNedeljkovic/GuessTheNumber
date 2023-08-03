@@ -1,0 +1,236 @@
+@import 'src/styles/_media-queries.scss';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 1rem;
+}
+.timer {
+  font-size: 1rem;
+  color: #990d0d;
+  align-self: flex-end;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+}
+.game-board-wrapper {
+  display: flex;
+  align-items: center;
+
+  // justify-content: center;
+  // gap: 4rem;
+}
+.titles {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+.correct-title {
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.correct-title p {
+  // margin: 11px 0 21px 0;
+  text-align: start;
+
+  text-shadow: -1px 1px 1px rgba(14, 14, 14, 0.171);
+  font-size: 0.5rem;
+  color: #2f3e46;
+}
+/////////////////////////////////
+.game-board-h4 {
+  text-align: center;
+  color: #2f3e46;
+  text-shadow: -1px 2px 1px rgba(14, 14, 14, 0.171);
+  font-size: 1rem;
+  // border-radius: 2.5px;
+  // margin: 0;
+  // padding: 2rem;
+}
+.number-buttons {
+  display: grid;
+  // display: flex;
+  // align-items: center;
+
+  grid-template-columns: repeat(5, 1fr);
+}
+.check-delete-btns {
+  display: flex;
+  flex-direction: column;
+}
+.num-check-del-btns {
+  display: flex;
+  align-items: center;
+  // gap: 1rem;
+  // justify-content: space-between;
+}
+
+.res-give-buttons-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  // position: fixed;
+  // bottom: 3rem;
+}
+.res-give-buttons {
+  background-color: #2f3e46;
+  padding: 1rem;
+  border-radius: 2.5px;
+  border: 1px solid #2f3e46;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 0.5rem;
+  margin-bottom: 1rem;
+}
+.res-give-buttons:hover {
+  background-color: #465d69;
+  color: #fff;
+  border: 1px solid #2f3e46;
+}
+@include xs {
+  .titles {
+    display: flex;
+    margin: 0.6rem;
+    gap: 2.1rem;
+  }
+  .game-board-h4 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .correct-title p {
+    font-size: 0.9rem;
+  }
+
+  .num-check-del-btns {
+    gap: 9rem;
+    transform: translateX(-1rem);
+  }
+}
+@include sm {
+  .titles {
+    display: flex;
+    margin: 0.9rem;
+    gap: 4.5rem;
+  }
+  .timer {
+    font-size: 1.6rem;
+    margin-right: 2.2rem;
+  }
+  .game-board-h4 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .num-check-del-btns {
+    gap: 0rem;
+    transform: translateX(0);
+  }
+
+  .correct-title p {
+    font-size: 1.2rem;
+  }
+  .number-buttons {
+    display: flex;
+  }
+  .check-delete-btns {
+    display: flex;
+    flex-direction: row;
+  }
+  .res-give-buttons {
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+}
+@include md {
+  .titles {
+    margin: 1rem;
+    gap: 4.4rem;
+  }
+  .game-board-h4 {
+    padding-top: 1.1rem;
+    font-size: 2rem;
+  }
+  .correct-title p {
+    font-size: 1.6rem;
+    margin-right: 0.4rem;
+  }
+  .timer {
+    font-size: 1.8rem;
+    margin-right: 6rem;
+  }
+}
+// .wrapper {
+//   background-color: #d4a373;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   margin: auto;
+//   gap: 2rem;
+// }
+// .timer {
+//   font-size: 2rem;
+//   color: #fefae0;
+//   align-self: flex-end;
+//   margin-right: 5rem;
+//   margin-top: 1rem;
+// }
+// .game-board-wrapper {
+//   display: flex;
+//   gap: 4rem;
+// }
+// .correct-title {
+//   display: flex;
+//   font-weight: bold;
+//   text-align: center;
+//   justify-content: center;
+//   gap: 1rem;
+// }
+// .correct-title p {
+//   margin: 11px 0 21px 0;
+//   text-shadow: -3px 2px 1px rgba(14, 14, 14, 0.171);
+//   font-size: 1.2rem;
+//   color: #fefae0;
+// }
+// .game-board-h4 {
+//   text-align: center;
+//   color: #fefae0;
+//   text-shadow: -3px 2px 1px rgba(14, 14, 14, 0.171);
+//   font-size: 2.1rem;
+//   border-radius: 2.5px;
+//   margin: 0;
+//   padding: 2rem;
+// }
+
+// .num-check-del-btns {
+//   display: flex;
+//   align-items: center;
+// }
+// .res-give-buttons-wrap {
+//   width: 100%;
+//   display: flex;
+//   justify-content: space-between;
+//   // position: fixed;
+//   bottom: 3rem;
+// }
+// .res-give-buttons {
+//   background-color: #ccd5ae;
+//   padding: 1rem;
+//   border-radius: 2.5px;
+//   border: 1px solid #a7b382;
+//   color: #524130;
+//   font-size: 2rem;
+//   text-align: center;
+//   margin: 0 2rem;
+//   margin-bottom: 2rem;
+// }
+// .res-give-buttons:hover {
+//   background-color: #524130;
+//   color: #a7b382;
+//   border: 1px solid #5c4937;
+// }
