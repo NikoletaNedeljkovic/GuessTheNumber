@@ -1,6 +1,6 @@
-@import 'src/styles/_media-queries.scss';
+@import '/src/styles/media-queries';
 
-.nav-bar ul {
+.unordered-list {
   display: flex;
   justify-content: space-between;
   gap: 1.2rem;
@@ -16,18 +16,18 @@
 .score {
   margin-left: auto;
 }
-.nav-bar a {
+.nav-bar .link {
   color: #fff;
 }
 @include sm {
-  .nav-bar ul {
+  .unordered-list {
     padding: 2.2rem;
     font-size: 1.4rem;
     gap: 4rem;
   }
 }
 @include md {
-  .nav-bar ul {
+  .unordered-list {
     padding: 2.5rem;
     font-size: 1.6rem;
   }

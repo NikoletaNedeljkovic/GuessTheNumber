@@ -7,7 +7,7 @@ function GameScore() {
   return (
     <>
       <div className={styles.wrapper}>
-        <h2>GAME SCORE</h2>
+        <h2 className={styles.heading}>GAME SCORE</h2>
         <h3 className={styles.winner}>YOU WON : {win} TIMES</h3>
         <h3 className={styles.loser}>YOU LOST : {lose} TIMES</h3>
         <h3 className={styles['best-time']}>BEST TIME : {bestTime} secs </h3>

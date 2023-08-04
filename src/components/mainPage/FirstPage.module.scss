@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-@import 'src/styles/_media-queries.scss';
+@import '/src/styles/media-queries';
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-header {
+.header {
   background-color: #cad2c5;
   padding: 2rem;
   padding-top: 10rem;
@@ -59,7 +54,7 @@ header {
   color: #2f3e46;
 }
 @include sm {
-  header {
+  .header {
     padding: 2rem;
     padding-top: 7rem;
     padding-bottom: 8rem;

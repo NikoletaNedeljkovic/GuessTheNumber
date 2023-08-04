@@ -1,4 +1,4 @@
-@import 'src/styles/_media-queries.scss';
+@import '/src/styles/media-queries';
 
 .wrapper {
   display: flex;
@@ -164,73 +164,3 @@
     margin-right: 6rem;
   }
 }
-// .wrapper {
-//   background-color: #d4a373;
-//   min-height: 100vh;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   margin: auto;
-//   gap: 2rem;
-// }
-// .timer {
-//   font-size: 2rem;
-//   color: #fefae0;
-//   align-self: flex-end;
-//   margin-right: 5rem;
-//   margin-top: 1rem;
-// }
-// .game-board-wrapper {
-//   display: flex;
-//   gap: 4rem;
-// }
-// .correct-title {
-//   display: flex;
-//   font-weight: bold;
-//   text-align: center;
-//   justify-content: center;
-//   gap: 1rem;
-// }
-// .correct-title p {
-//   margin: 11px 0 21px 0;
-//   text-shadow: -3px 2px 1px rgba(14, 14, 14, 0.171);
-//   font-size: 1.2rem;
-//   color: #fefae0;
-// }
-// .game-board-h4 {
-//   text-align: center;
-//   color: #fefae0;
-//   text-shadow: -3px 2px 1px rgba(14, 14, 14, 0.171);
-//   font-size: 2.1rem;
-//   border-radius: 2.5px;
-//   margin: 0;
-//   padding: 2rem;
-// }
-
-// .num-check-del-btns {
-//   display: flex;
-//   align-items: center;
-// }
-// .res-give-buttons-wrap {
-//   width: 100%;
-//   display: flex;
-//   justify-content: space-between;
-//   // position: fixed;
-//   bottom: 3rem;
-// }
-// .res-give-buttons {
-//   background-color: #ccd5ae;
-//   padding: 1rem;
-//   border-radius: 2.5px;
-//   border: 1px solid #a7b382;
-//   color: #524130;
-//   font-size: 2rem;
-//   text-align: center;
-//   margin: 0 2rem;
-//   margin-bottom: 2rem;
-// }
-// .res-give-buttons:hover {
-//   background-color: #524130;
-//   color: #a7b382;
-//   border: 1px solid #5c4937;
-// }

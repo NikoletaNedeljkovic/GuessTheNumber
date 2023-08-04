@@ -4,19 +4,31 @@ function App() {
   return (
     <>
       <nav className={styles['nav-bar']}>
-        <ul>
+        <ul className={styles['unordered-list']}>
           <li>
-            <Link to={`home`} style={{ textDecoration: 'none' }}>
+            <Link
+              to={`home`}
+              
+              className={styles.link}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to={`game`} style={{ textDecoration: 'none' }}>
+            <Link
+              to={`game`}
+              
+              className={styles.link}
+            >
               Play
             </Link>
           </li>
           <li className={styles.score}>
-            <Link to={`game/score`} style={{ textDecoration: 'none' }}>
+            <Link
+              to={`game/score`}
+              
+              className={styles.link}
+            >
               Game Score
             </Link>
           </li>

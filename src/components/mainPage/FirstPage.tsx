@@ -3,7 +3,7 @@ import styles from './FirstPage.module.scss'
 function FirstPage() {
   return (
     <>
-      <header>
+      <header className={styles.header}>
         <h1 className={styles.heading}>Guess my Number</h1>
       </header>
       <main>

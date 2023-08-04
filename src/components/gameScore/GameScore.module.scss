@@ -1,9 +1,9 @@
-@import 'src/styles/_media-queries.scss';
+@import '/src/styles/media-queries';
 .wrapper {
   background-color: #cad2c5;
   height: 100vh;
 }
-h2 {
+.heading {
   padding: 3rem;
   text-align: center;
   font-size: 3rem;
@@ -31,7 +31,7 @@ h2 {
   margin-top: 3rem;
 }
 @include sm {
-  h2 {
+  .heading {
     padding: 6rem;
     font-size: 4.2rem;
   }
