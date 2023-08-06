@@ -1,0 +1,58 @@
+@import '/src/styles/media-queries';
+.column {
+  display: flex;
+}
+.number-field {
+  background-color: #52796f;
+  color: #fff;
+  text-shadow: -3px 2px 1px rgba(14, 14, 14, 0.171);
+  text-shadow: 0.2rem;
+  border: 1px solid #45665e;
+  height: 4rem;
+  width: 4rem;
+  padding-top: 0.6rem;
+  border-radius: 2.5px;
+  margin: 0.1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+@include xs {
+  .number-field {
+    border: 1px solid #45665e;
+    height: 6rem;
+    width: 6rem;
+    padding-top: 1.2rem;
+    border-radius: 2.5px;
+    margin: 0.1rem;
+    text-align: center;
+    font-size: 2.3rem;
+  }
+  .column {
+    display: flex;
+    margin-right: 2rem;
+  }
+}
+@include sm {
+  .number-field {
+    height: 7.3rem;
+    width: 7.3rem;
+    padding-top: 2rem;
+    margin: 0.1rem;
+    font-size: 2.3rem;
+  }
+  .column {
+    margin-right: 3rem;
+  }
+}
+@include md {
+  .number-field {
+    height: 8.6rem;
+    width: 8.6rem;
+    padding-top: 2.5rem;
+    margin: 0.1rem;
+    font-size: 2.5rem;
+  }
+  .column {
+    margin-right: 3rem;
+  }
+}
