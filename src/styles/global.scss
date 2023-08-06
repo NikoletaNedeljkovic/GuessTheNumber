@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+* {
+  font-family: 'Press Start 2P', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  height: 100%;
+  background-color: #cad2c5;
+  min-height: 100vh;
+}
+

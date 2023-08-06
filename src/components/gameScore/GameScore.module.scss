@@ -1,0 +1,47 @@
+@import '/src/styles/media-queries';
+.wrapper {
+  background-color: #cad2c5;
+  height: 100vh;
+}
+.heading {
+  padding: 3rem;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: -10px 2px 1px rgba(14, 14, 14, 0.264);
+  color: #2f3e46;
+}
+.loser {
+  color: #990d0d;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: -5px 2px 1px rgba(14, 14, 14, 0.264);
+}
+.winner {
+  font-size: 2rem;
+  margin: 2.2rem;
+  color: #0d5f0db9;
+  text-align: center;
+  text-shadow: -5px 2px 1px rgba(14, 14, 14, 0.264);
+}
+.best-time {
+  text-align: center;
+  color: #fff;
+  font-size: 2.6rem;
+  text-shadow: -6px 2px 1px rgba(14, 14, 14, 0.264);
+  margin-top: 3rem;
+}
+@include sm {
+  .heading {
+    padding: 6rem;
+    font-size: 4.2rem;
+  }
+  .loser {
+    font-size: 2.2rem;
+  }
+  .winner {
+    font-size: 2.3rem;
+  }
+  .best-time {
+    font-size: 2.8rem;
+  }
+}
