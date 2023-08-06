@@ -19,7 +19,6 @@ export function gameReducer(prevState: GameState, action: GameAction) {
       if (lastEl === undefined) break
       state.currMove.delete(lastEl)
       state.pickedNumbers.pop()
-      // setPickedNumbers(arr => arr.slice(0, -1))
       break
     case 'check_guess':
       if (state.currMove.size < 4) break

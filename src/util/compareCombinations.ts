@@ -6,7 +6,6 @@ function compareCombinations(guess: number[], result: number[]) {
     if (guess[i] === result[i]) correctPosition++
     if (guess.includes(result[i])) correctNumbers++
   }
-  //   const incorrectPosition = correctNumbers - correctPosition
 
   return { correctNumbers, correctPosition }
 }

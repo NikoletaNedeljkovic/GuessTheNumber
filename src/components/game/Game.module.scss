@@ -17,9 +17,6 @@
 .game-board-wrapper {
   display: flex;
   align-items: center;
-
-  // justify-content: center;
-  // gap: 4rem;
 }
 .titles {
   display: flex;
@@ -34,28 +31,20 @@
   gap: 0.4rem;
 }
 .correct-title p {
-  // margin: 11px 0 21px 0;
   text-align: start;
-
   text-shadow: -1px 1px 1px rgba(14, 14, 14, 0.171);
   font-size: 0.5rem;
   color: #2f3e46;
 }
-/////////////////////////////////
 .game-board-h4 {
   text-align: center;
   color: #2f3e46;
   text-shadow: -1px 2px 1px rgba(14, 14, 14, 0.171);
   font-size: 1rem;
-  // border-radius: 2.5px;
-  // margin: 0;
-  // padding: 2rem;
+   padding: 2rem;
 }
 .number-buttons {
   display: grid;
-  // display: flex;
-  // align-items: center;
-
   grid-template-columns: repeat(5, 1fr);
 }
 .check-delete-btns {
@@ -65,16 +54,11 @@
 .num-check-del-btns {
   display: flex;
   align-items: center;
-  // gap: 1rem;
-  // justify-content: space-between;
 }
-
 .res-give-buttons-wrap {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  // position: fixed;
-  // bottom: 3rem;
 }
 .res-give-buttons {
   background-color: #2f3e46;
